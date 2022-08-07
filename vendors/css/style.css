@@ -1,0 +1,705 @@
+/*
+  Template Name:Montreal Landing Page
+  Template URL:http://montreal.com
+  Author:Montreal
+  Author URL:http://montreal.me
+  Description:This is Montreal psd template
+*/
+
+    
+/*--------------------------------------------------
+------------------------------------------------------*/
+/* ---------------------------------------------------
+    Table Of Content
+	
+    01 Navigation
+    02 Banner (1,2,3,4)
+    03 Service
+    04 Img_Section
+    05 Footer
+
+ /*-------------------------------------------
+------------------------------------------------*/
+/* --------------------------------------------*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+  }
+  
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap");
+  
+ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,p,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+a {
+text-decoration:none;
+}
+a:hover {
+text-decoration:none;
+}
+.container {
+    max-width:1032px;
+    width:100%;
+    margin:0 auto;
+}
+
+/*===========TopBar css Start============*/
+/*===========TopBar css Start============*/
+.top_header {
+	background: #f5f5f5;
+	padding: 8px;
+}
+.top_area {
+    display: flex;
+    justify-content: space-between;
+}
+.text_area {
+    display: flex;
+}
+.text-mail{
+    display: flex;
+	gap: 0px;
+}
+.text {
+	margin-right: 9px;
+	padding-top: 3px;
+}
+.mail a{
+	color: black;
+}
+.text1 {
+	padding-top: 3px;
+}
+.text-area-phone {
+	display: flex;
+	gap: 0px;
+	margin-left: 21px;
+}
+.phone {
+	margin-left: 7px;
+}
+/*===========TopBar css End ============*/
+/*===========TopBar css End ============*/
+
+/*===========navber css Start ============*/
+/*===========navber css Start ============*/
+.navber {
+    padding: 12px;
+    background:#fff;
+}
+.navber_area {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* menuber css */
+.menuber_area ul {
+	display: flex;
+    gap: 23px;
+    padding-top: 10px;
+}
+.logo img {
+    width: 116px;
+}
+.menuber_area ul li{
+    font-size: 14px;
+    font-family: Roboto;
+}
+.menuber_area ul li a{
+    color: black;
+    cursor: pointer;
+}
+.menuber_area ul li a:hover{
+    color:#ffcc00;
+}
+.menuber_area ul li a.active{
+    color:#ffcc00;
+}
+#menu_icon{ 
+    font-size: 28px;
+    color: rgb(8, 3, 3); 
+    float: right; 
+    border: 1px solid #fff;
+    padding: 2px 15px;
+    line-height: 31px; 
+    border-radius:5px; 
+    display:none; 
+    }
+/*===========navber css End ============*/
+/*===========navber css End ============*/
+
+/*===========banner css Start ============*/
+/*===========banner css Start ============*/
+.banner {
+    background: #9999ff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    padding: 170px 0px;
+}
+
+.headline h1 {
+    font-family: Montserrat;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 64px;
+    line-height: 74px;
+}
+.pra {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 20px;
+    line-height: 30px;
+}
+button.btn {
+    width: 160px;
+    height: 45px;
+    background: #ffcc00;
+    border: none;
+    cursor: pointer;
+}
+.btton {
+    padding-top: 30px;
+    cursor: pointer;
+}
+ .btton a .btn:hover{
+    background-color:pink;
+    color: #fff;
+}
+/*=========== banner css End ============*/
+/*=========== banner css End ============*/
+
+/*=========== banner footer css Start ============*/
+/*=========== banner footer css Start ============*/
+.banner_footer_start_area {
+    padding: 20px;
+    background: #ffcc00;
+}
+.ft_area {
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+.ft_heading{
+    color: #fff;
+    font-family: Roboto;
+    font-size: 30px;
+}
+.ft_heading span a{
+    color: black;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 30px;
+    font-family: Roboto;
+    cursor: pointer;
+}
+.ft_heading span a:hover{
+    color: green;
+}
+.btn button {
+    width: 110px;
+    height: 38px;
+    background: #fff;
+    border-style: none;
+    color: #ffcc00;
+    cursor: pointer;
+}
+.btn button:hover{
+    background:green;
+    color: #f5f5f5;
+}
+/*=========== banner footer css end ============*/
+/*=========== banner footer css end ============*/
+
+/*===========  service section css start ============*/
+/*===========  service section css start ============*/
+.service_section {
+	text-align: center;
+	padding-top: 106px;
+	line-height: 80px;
+}
+.h_line {
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 22px;
+    text-transform: uppercase;
+    color: #333361;
+}
+.p_line {
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 24px;
+	color: #666699;
+}
+.banner_main_area {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+/*=========== service section css end ============*/
+/*=========== service section css end ============*/
+
+/*=========== banner2_section csss start ============*/
+/*=========== banner2_section css  start ============*/
+.banner2_section_area {
+	padding-top: 70px;
+}
+.section_one {
+	flex: 0 0 29%;
+	margin: 2%;
+}
+.pra_line p {
+	padding: 15px 0;
+	font-size: 14px;
+	font-family: Roboto;
+	font-weight: 300;
+}
+.section img {
+	width: 300px;
+	background: #ffcc00;
+}
+.header_line {
+	padding-top: 21px;
+	font-family: Roboto;
+    font-size: 22px;
+    cursor: pointer;
+}
+.header_line a h1:hover{
+    color: #fc0;
+}
+.read_line {
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: bold;
+    color: #666699;
+    cursor: pointer;
+}
+.read_line a h2:hover{
+    color: #fc0
+}
+.box_area {
+	display: flex;
+	padding-top: 100px;
+}
+
+.box_one{
+    width: 700px;
+    height: 590px;
+    background: #f5f5f5;
+}
+.head_one img {
+	float: left;
+	width: 65px;
+	height: 60px;
+	padding-top: 34px;
+}
+.head_one h1 {
+	font-family: Montserrat;
+    margin-left: 44px;
+    padding-left: 46px;
+}
+.head_one p {
+	font-family: Montserrat;
+	font-size: 14px;
+	margin-left: 44px;
+	padding-left: 46px;
+	padding-top: 25px;
+	width: 425px;
+}
+.head_one {
+	padding-top: 59px;
+	margin-left: 42px;
+}
+/*=========== banner2_section csss end ============*/
+/*=========== banner2_section css  end ============*/
+
+/*=========== middle navber_menu css strat ============*/
+/*=========== middle navber_menu css strat ============*/
+.menu_area {
+	padding-top: 49px;
+}
+.menu_area ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 18px;
+}
+.menu_area ul li {
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 400;
+}
+.menu_area ul li a{
+    color: black;
+    cursor: pointer;
+}
+.menu_area ul li a:hover{
+    color: #9999ff;
+}
+.menu_area ul li a.active{
+    color: #ffcc00;
+    text-decoration: underline;
+}
+/*=========== middle navber_menu css end ============*/
+/*=========== middle navber_menu css end ============*/
+
+/* Start feature_img_all section css */
+/* Start feature_img_all section css */
+.feature_img_all {
+	display: flex;
+	justify-content: center;
+    align-content: center;
+    padding-top: 60px;
+}
+.single_feature_img {
+	display: flex;
+}
+
+.feature_img {
+	flex: 0 0 33.3%;
+}
+.feature_img img{
+  width: 100%;
+  height: 300px;
+}
+
+.feature_img {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.overlay-text {
+	position: absolute;
+	background: #666699;
+	width: 100%;
+	height: 31%;
+    top: 68%;
+    opacity: 0;
+	transform: scale(0);
+	transition: 1s;
+}
+/* .feature_img img{
+    transition: transform .5s ease-in-out;
+}
+.feature_img:hover img{
+    transform: scale(1.1);
+}
+.feature_img img:hover{
+    transform: rotate(300deg);
+} */
+
+.feature_img:hover .overlay-text {
+    transform: scale(1);
+    opacity: .8;
+}
+.overlay-text h2 {
+	padding-top: 24px;
+	margin-left: 21px;
+	font-family: Roboto;
+	font-size: 24px;
+}
+.line {
+	width: 63px;
+	background:#333361;
+    height: 2px;
+    margin-left:20px;  
+}
+.feather_img_area {
+	display: flex;
+	margin-top: -4px;
+}
+/* End feature_img_all section css */
+/* End feature_img_all section css */
+
+/* Start team_area section css */
+/* Start team_area section css */
+.team {
+	display: flex;
+    justify-content: space-between;
+    padding-top: 85px;
+	gap: 25px;
+}
+.member_img {
+	position: absolute;
+}
+.content {
+	position: relative;
+	background: #cccccc;
+	height: 171px;
+	margin-left: 136px;
+	padding-left: 19px;
+}
+.content p {
+	padding-top: 25px;
+	line-height: 24px;
+	font-family: montserrat;
+	font-size: 11px;
+	color: #666699;
+}
+.content h2 {
+	font-family: Montserrat;
+	font-size: 11px;
+	line-height: 55px;
+	color: #666666;
+	text-transform: uppercase;
+}
+/* End team_area section css */
+/* End team_area section css */
+
+/* Start company_logo area css */
+/* Start company_logo area css */
+.company_logo_area {
+	padding-top: 68px;
+}
+.company_logo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/* end company_logo area css */
+/* end company_logo area css */
+
+/* strat count area css */
+/* strat count area css */
+.counter_area {
+	background: #fc0;
+	padding: 47px;
+	margin-top: 60px;
+}
+.count_number {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.count p {
+	font-family: montserrat;
+	color: #fff;
+	line-height: 46px;
+}
+.count h3 {
+	font-family: montserrat;
+	font-size: 23px;
+	font-weight: 400;
+	text-align: center;
+}
+/* end count area css */
+/* end count area css */
+
+/* start banner area css */
+.banner_four {
+	width: 73%;
+	height: 114px;
+	background: red;
+	position: absolute;
+	z-index: -1;
+	padding-left: 44px;
+}
+.all_banner_area {
+	display: flex;
+	justify-content: space-between;
+}
+.all_banner_area {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background:#fff;
+	height: 116px;
+	border-left: 6px solid #ffcc00 ;
+}
+.contnt_area {
+	padding-left: 38px;
+}
+.contnt_area h3 {
+	font-family: Roboto;
+	font-size: 20px;
+}
+.contnt_area p {
+	font-family: Roboto;
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: 300;
+}
+.btnn {
+	padding-right: 36px;
+}
+.btnn button {
+	width: 157px;
+	height: 46px;
+	background: #ffcc00;
+	border-style: none;
+}
+.banner4_area {
+	padding-top: 67px;
+	background: #ecf0f1;
+	height: 186px;
+}
+/* end banner area css */
+
+/* start banner_area3 css */
+.banner_area3_all_area {
+    background: #333333;
+    height: 500px;
+    margin-top: 90px;
+}
+.banner_area3_main_area {
+    display: flex;
+    justify-content: space-between;
+}
+.banner_one_area {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    padding-top: 111px;
+}
+.all_content {
+	display: flex;
+	gap: 5px;
+	line-height: 50px;
+    position: relative;
+}
+.all_content::after {
+    content: "";
+    background-color: rgb(241, 241, 218);
+    width: 250px;
+    height: 0px;
+    border-bottom: 0.5px solid #a19595;
+    position: absolute;
+    top: 99%;
+    opacity: 0.5;
+}
+.author {
+    display: flex;
+    gap: 17px;
+    padding-top: 22px;
+}
+span h5 {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+span p {
+    font-size: 12px;
+    line-height: 25px;
+}
+.icon span a {
+    margin-top: 27px;
+    line-height: 72px;
+}
+.contact_info {
+	display: flex;
+	gap: 9px;
+	line-height:63px;
+}
+.phn {
+    line-height: 35px;
+}
+i.fa-solid.fa-phone {
+    line-height: 56px;
+}
+.icon {
+    word-spacing: 16px;
+    font-size: 20px;
+}
+.icon a {
+    color: #fff;
+}
+.mailing_address p {
+    width: 245px;
+    height: 38px;
+    font-size: 12px;
+    font-family: Roboto;
+}
+.suscribe-right {
+    width: 216px;
+    max-width: 100%;
+    display: inline-flex;
+    margin-bottom:19px;
+    margin-top:19px;
+}
+.suscribe-right form {
+    position: relative;
+} 
+.suscribe-email input {
+    font-size: 15px;
+    color: #9b9b9b;
+    letter-spacing: 0.14px;
+    line-height: 26px;
+    padding: 8px 119px 7px 13px;
+    outline: 0 none;
+    width: 55%;
+    border: 1px solid transparent;
+    transition: all 0.3s linear;
+}
+.suscribe-email input::placeholder {
+    font-size: 15px;
+    color: #9b9b9b;
+}
+.suscribe-btn input[type="submit"] {
+    background: #ff0094;
+    color: #fff;
+    cursor: pointer;
+    padding: 11px 18px;
+    border: none;
+    float: right;
+    font-size: 18px;
+}
+.suscribe-btn input[type="submit"] {
+    position: absolute;
+    top: 0px;
+    right:-18%;
+}
+.pera {
+	width: 255px;
+    height: auto;
+    padding-top: 22px;
+}
+/* end banner_area3 css */
+
+/* start footer area css  */
+.copyright_area {
+	display: flex;
+	gap: 3px;
+    align-items: center;
+    color: #fff;
+}
+.footer_menu_area ul {
+    display: flex;
+    gap: 26px;
+}
+.end_footer_area {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.all_footer_area {
+    background: #b2bec3;
+    padding: 20px;
+}
+.footer_menu_area ul li a {
+    color: #fff;
+    cursor: pointer;
+}
+.footer_menu_area ul li a:hover {
+	color:black;
+}
+/* end footer area css */
+
+/* ============ The end ============ */

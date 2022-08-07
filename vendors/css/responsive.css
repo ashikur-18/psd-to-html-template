@@ -1,0 +1,260 @@
+@media all and (max-width:992px){
+    .container {
+        max-width: 1000px;
+        width: 95%;
+    }
+}
+/* top navbar responsive css */
+@media all and (max-width:538px){
+    .top_area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .question {
+        margin-bottom: 9px;
+    }
+}
+@media all and (max-width:377px){
+    .text_area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-area-phone {
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+}
+/* menuber responsive css */
+@media all and (max-width:993px){
+    .menuber_area ul {
+        margin-right: 50px;
+    }
+}
+@media all and (min-width:718px){
+    .menuber_area ul {
+        display: flex!important;
+    }
+}
+@media all and (max-width:718px){
+    .menuber_area ul {
+        display: none
+    }
+}
+@media all and (max-width:710px){
+    #menu_icon{
+        display: block;
+    }
+    .menuber_area ul{
+        display: none;
+        position: absolute;
+        top: 88px;
+        width: 100%;
+        right: 0px;  
+        background:#fff;
+        z-index: 99;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 30px;
+    }
+} 
+@media all and (max-width:320px){
+    .banner{
+        padding: 66px 0px;
+    }
+    .headline h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    button.btn {
+        margin-top: 15px;
+    }
+}
+
+/* service section responsive css */
+@media all and (max-width:1078px){
+    .ft_area {
+      flex-direction: column
+    }
+    .btn button {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+}
+@media all and (max-width:320px){
+    .h_line {
+        font-size: 18px;
+    }
+    .p_line {
+        font-size: 13px; 
+    }
+}
+/* banner section responsive css */
+@media all and (max-width:1024px){
+    .banner_main_area {
+        flex-wrap:wrap;
+    }
+}
+
+/* service_box section responsive css */
+@media all and (max-width:1254px){
+    .box_area {
+        flex-direction: column;
+    }
+    iframe {
+        width: 100%;
+    }
+    .box_one {
+        width: 100%;
+    }
+    .box {
+        margin-bottom: -4px;
+    }
+}
+@media all and (max-width:560px){
+    .box_one {
+        height: 843px;
+    }
+}
+@media all and (max-width:560px){
+    .box_img {
+        text-align: center;
+    }
+    .head_one {
+        margin-left: 0px;
+    }
+    .head_one img {
+        float: none;
+    }
+}
+@media all and (max-width:560px){
+    .head_one p {
+        width: 220px;
+    }
+    .box_one {
+        height: auto;
+    }
+}
+@media all and (max-width:560px){
+    .head_one {
+    padding-top: 0px;  
+    }
+}
+@media all and (max-width:320px){
+    .service_section {
+        line-height: 45px;
+        padding-top: 56px;
+    }
+    .menu_area ul {
+        gap: 11px;
+    }
+}
+/* banner2 responsive css */
+@media all and (max-width:908px){
+    .team {
+        flex-direction: column;
+    }
+}
+@media all and (max-width:908px){
+    .content p {
+        line-height: 16px;
+        font-size: 11px;
+    }
+}
+@media all and (max-width:908px){
+    .content h2 {
+        font-size: 11px;
+        line-height: 27px;
+    }
+}
+@media all and (max-width:892px){
+    .content h2 {
+        line-height: 50px;
+    }
+}
+
+@media all and (max-width:944px){
+    .company_logo {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media all and (max-width:944px){
+    .count_number {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+/*banner4 response css  */
+@media all and (max-width:646px){
+    .contnt_area h3 {
+        font-size: 18px;
+    }
+    .contnt_area p {
+        width: 255px;
+        height: auto;
+    }
+}
+@media all and (max-width:526px){
+    .btnn button {
+        width: 131px;
+        height: 43px;
+    }
+    .contnt_area h3 {
+        font-size: 16px;
+    }
+}
+@media all and (max-width:490px){
+    .all_banner_area {
+        flex-direction: column;
+    }
+    .banner_one_area {
+        padding-top: 40px;
+    }
+    .contnt_area h3 {
+        font-size: 12px;
+        padding-top: 12px;
+    }
+}
+@media all and (max-width:448px){
+    .btnn {
+        padding-bottom: 20px;
+    }
+    .all_banner_area {
+        height: 160px;
+    }
+}
+@media all and (max-width:320px){
+    .contnt_area {
+        padding-left: 25px;
+    }
+    .btnn {
+        margin-left: 31px;
+    }
+}
+
+/* banner3 responsive css */
+@media all and (max-width:1072px){
+    .banner_area3_all_area {
+        height: auto;
+    }
+    .banner_area3_main_area {
+        flex-wrap: wrap;
+    }
+}
+@media all and (max-width:1072px){
+    .footer_menu_area ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+    }
+    .end_footer_area {
+        flex-direction: column;
+    }
+    .footer_menu_area {
+        padding-top: 12px;
+        line-height: 4px;
+    }
+}
+/* ============ The end ============ */
